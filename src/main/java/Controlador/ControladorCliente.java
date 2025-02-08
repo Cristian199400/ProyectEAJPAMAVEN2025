@@ -18,7 +18,7 @@ public class ControladorCliente extends HttpServlet {
     public ControladorCliente() {
         super();
         // TODO Auto-generated constructor stub
-    }
+    }// Fin del controlador cliente
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -26,7 +26,7 @@ public class ControladorCliente extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-	}
+	}// Fin del metodo doget
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
@@ -34,6 +34,6 @@ public class ControladorCliente extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
-	}
+	}// Fin del metodo dopost
 
-}
+}// Fin del controlador
